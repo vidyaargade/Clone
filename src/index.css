@@ -1,0 +1,83 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Arial" sans-serif;
+}
+
+input {
+  border-radius: 15px;
+}
+.AppBar {
+  background-color: #3F51B5; /* Indigo blue color as seen in the image */
+  color: white;
+}
+
+.Toolbar {
+  display: flex;
+  justify-content: space-between; /* Space out the elements in the toolbar */
+}
+
+.Toolbar .Typography {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Toolbar .Button {
+  color: white;
+}
+
+/* Sidebar - Motion, Looks, Control, Events */
+.SideBar {
+  background-color: #f0f0f0; /* Light gray background for sidebar */
+  padding: 10px;
+  border-right: 2px solid #e0e0e0;
+}
+
+.SideBar h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Sidebar sections (Motion, Looks, Control, Events) */
+.SideBar .section {
+  margin-bottom: 20px;
+}
+
+.SideBar .section h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.SideBar .control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.SideBar .control input {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.SideBar .control label {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Control Buttons */
+.SideBar .control button {
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.SideBar .control button:hover {
+  background-color: #303f9f;
+}
